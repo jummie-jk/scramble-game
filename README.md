@@ -1,6 +1,22 @@
 # ScrambleGame
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
+The Word Scramble Game is a fun and engaging word puzzle game where the player is given a scrambled word and needs to unscramble it to form a valid word. The game includes a timer, score tracking, and optional features like hints and a scoring system.
+
+# How to play
+Scrambled Word: The game will display a scrambled word on the screen.
+Guess the Word: Type your guess for the unscrambled word into the input field.
+Submit Guess: Press the "Submit" button or hit the Enter key to check if your guess is correct.
+Feedback: You will receive feedback:
+Correct Guess: If your guess is correct, your score will increase, and a new scrambled word will appear.
+Incorrect Guess: If your guess is incorrect, you can try again.
+Hints: You can click the "Show Hint" button to display a hint about the word if you get stuck.
+Time Limit: You will have a limited time to guess the word (30 seconds). If time runs out, the game will notify you that time is up.
+
+## Technologies Used
+
+Angular: The game is built using Angular for the frontend.
+CSS: For styling the game layout.
+TypeScript: For implementing the game logic and functionality.
 
 ## Development server
 
