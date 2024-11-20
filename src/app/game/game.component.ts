@@ -33,6 +33,7 @@ export class GameComponent implements OnInit {
       this.hint = wordData.hint;
       this.userGuess = '';
       this.feedback = '';
+      this.timer = 60;
     } catch (error) {
       this.feedback = 'No more words available!';
     }
