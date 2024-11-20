@@ -4,10 +4,16 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
+import { GameComponent } from './game/game.component';
+import { ScoreComponent } from './score/score.component';
+import { HintComponent } from './hint/hint.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GameComponent,
+    ScoreComponent,
+    HintComponent
   ],
   imports: [
     BrowserModule,
