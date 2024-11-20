@@ -1,0 +1,18 @@
+<div class="game-container">
+    <h1>Word Scramble Game</h1>
+    <p>Scrambled Word: <strong>{{ scrambledWord }}</strong></p>
+    <button (click)="showHint = !showHint">{{ showHint ? 'Hide' : 'Show' }} Hint</button>
+   <p *ngIf="showHint">Hint: {{ hint }}</p>
+  
+    <input
+      type="text"
+      [(ngModel)]="userGuess"
+      placeholder="Your guess"
+      (keyup.enter)="checkGuess()"
+    />
+    <button (click)="checkGuess()">Submit</button>
+  
+    <p>{{ feedback }}</p>
+    <p>Score: {{ score }}</p>
+    <p *ngIf="timer">Time Left: {{ timer }} seconds</p>
+  </div>
